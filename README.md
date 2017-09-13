@@ -1,5 +1,7 @@
 # PennyBank: Inspiration!
 
+![penny](https://user-images.githubusercontent.com/22113022/30369675-2ab9ee0e-982a-11e7-8d7f-9d875713abe3.jpg)
+
 As a college student at the age of early 20's I want to have fun and enjoy my early 20s. The majority of students don't think of retirement until later in life. There are two basic problems here:
 
 * Wasting time in things and situation that do not matter for future security
