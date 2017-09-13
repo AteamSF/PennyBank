@@ -1,5 +1,3 @@
-//http://eloquentjavascript.net/09_regexp.html
-//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 nlp = window.nlp_compromise;
 
 
@@ -16,15 +14,12 @@ var messages = [], //array that hold the record of each string in chat
     "protein_supplement": 58
   }
 
-//****************************************************************
+//**************************************************
 //edit this function to change what the chatbot says
 
 function chatbotResponse(response) {
   talking = true;
   botMessage = "I'm confused"; //the default message 
-   
- // if(typeof result !== undefined){
- //   console.log('undefined result : ', result);
 
   if (response.top_class == 'savings') {
     botMessage = 'your total amount is: ' + totalAmount + ' dollars'; 
@@ -33,17 +28,7 @@ function chatbotResponse(response) {
   } else {
     botMessage = ' error ';
   }
-
-/*
-  if(items == 'protein_supplement' || 
-    items == 'play_station' || 
-    items == 'birthday_party' ||
-    items == 'coldplay_consert')
-  {
-    botMessage = items - totalAmount; 
-  }*/
-}
-
+  
 
 function apicall(method, url){
   let httprequest = new XMLHttpRequest(); 
@@ -59,7 +44,7 @@ function apicall(method, url){
 } 
 
 
-//this runs each time enter is pressed.
+//this runs each time we hit enter.
 //It controls the overall input and output
 
 function newEntry() {
@@ -72,7 +57,6 @@ function newEntry() {
     //adds the value of the chatbox to the array messages
     messages.push(lastUserMessage);
 
-    //apicall('GET', 'https://gateway.watsonplatform.net/natural-language-classifier/api'); 
 
     //Speech(lastUserMessage);  //says what the user typed outloud
     //sets the variable botMessage in response to lastUserMessage
@@ -146,6 +130,5 @@ function getjson() {
     });
 
 }
-//console.log('this is a concole log: ', JSON.stringify(response, null, 2));
 
 
