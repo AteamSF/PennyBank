@@ -5,7 +5,7 @@
 As a college student at the age of early 20's I want to have fun and enjoy my early 20s. The majority of students don't think of retirement until later in life. There are two basic problems here:
 
 * Wasting time in things and situation that do not matter for future security
-* Building a spending habit and most likely getting your self in dept.
+* Building a spending habit and most likely getting yourself in debt.
 
 Things that most students or teens don't really like or prefer doing:
 * Paperwork
